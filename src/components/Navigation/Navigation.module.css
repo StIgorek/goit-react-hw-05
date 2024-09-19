@@ -1,0 +1,14 @@
+.active {
+  color: aqua;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  margin-left: 40px;
+}

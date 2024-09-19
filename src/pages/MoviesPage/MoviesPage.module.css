@@ -1,0 +1,19 @@
+.container {
+  width: 900px;
+  font-size: 20px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 40px;
+}
+
+.input {
+  width: auto;
+  height: 40px;
+  font-size: 20px;
+  padding: 0;
+}
+
+.p {
+  font-size: 20px;
+}
