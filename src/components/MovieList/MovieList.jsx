@@ -9,8 +9,8 @@ export default function MovieList({ movies }) {
       {movies.map(({ id, backdrop_path, title }) => {
         return (
           <li key={id} className={css.wrapper}>
-            <h3 className={css.title}>{title}</h3>
             <Link to={`/movies/${id}`} state={location} className={css.item}>
+              <h3 className={css.title}>{title}</h3>
               <img
                 src={`https://image.tmdb.org/t/p/w300${backdrop_path}`}
                 alt={title}

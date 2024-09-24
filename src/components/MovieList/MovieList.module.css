@@ -18,7 +18,6 @@
 
 .item {
   width: 100%;
-
   display: flex;
   flex-direction: column;
 }
@@ -33,7 +32,7 @@
   padding: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: currentColor;
+  color: white;
   transition: color 250ms linear;
 }
 
